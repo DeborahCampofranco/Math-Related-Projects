@@ -2,6 +2,7 @@ import PerfectNumbersBeforeInput.PerfectNumbersBeforeInput;
 import PrimeNumbers.PrimeNumbersBeforeInput;
 import RecursiveMethods.Factorial;
 import RecursiveMethods.HarmonicSum;
+import RecursiveMethods.PalindromeWords;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,5 +17,9 @@ public class Main {
 
         HarmonicSum harmonicSum = new HarmonicSum();
         harmonicSum.printHarmonicSum(5);
+
+        PalindromeWords palindromeWords = new PalindromeWords();
+        palindromeWords.printIfTheWordIsPalindrome("hello");
+        palindromeWords.printIfTheWordIsPalindrome("sus");
     }
 }

@@ -2,7 +2,7 @@ package RecursiveMethods;
 
 public class HarmonicSum {
     public void printHarmonicSum(int number){
-        System.out.println("The harmonic sum of "+ number +" is "+harmonicSum(number));
+        System.out.println("\nThe harmonic sum of "+ number +" is "+harmonicSum(number));
     }
     private static double harmonicSum(int number) {
         double har_n=0;
